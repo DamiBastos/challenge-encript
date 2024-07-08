@@ -109,6 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color:#FFFFFF;
     width: 25%;
     border-radius: 32px;
@@ -140,14 +141,27 @@ button{
     }
 
     .frame-2{
-        width: 80vw;
+        width: 100vw;
         margin: 2rem;
+    }
+
+    .frame-2resultado{
+        padding: 1rem;
+        width: 90vw;
+        padding: 0;
+    }
+
+    .frame-2resultado button{
+        padding: 0.5rem;
+        width: 80%;
+        margin-bottom: 1rem;
     }
 
     .frame-2 img{
         display: none;
         
     }
+    
   }
 
 @media (max-width: 320px) {
@@ -159,4 +173,14 @@ button{
     .container__main{
         padding: 1rem;
     }
+
+    .frame-2resultado{
+        width: 100vw;
+        padding: 0;
+    }
+
+    .frame-2{
+        width: 100vw;
+    }
+
   }
