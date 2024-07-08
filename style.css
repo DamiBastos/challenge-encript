@@ -1,0 +1,162 @@
+*{
+    font-family: inter;
+}
+
+.body{
+    background-color: #F3F5FC;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__main{
+    display: flex;
+    padding: 1rem 2rem;
+    height: 90vh;
+}
+
+.frame-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 2rem;
+}
+
+.frame-1 textarea{
+    font-family: inter;
+    font-size: 32px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    width: 90%;
+    height: 65%;
+    padding: 1rem;
+    border: none;
+}
+
+.container__main__buttons{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.container__main__buttons button{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+.introduce{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.btn-copiar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.frame-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    width: 20%;
+    padding: 2rem;
+    border-radius: 32px;
+}
+
+.frame-2 h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.frame-2 h4{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.frame-2 img{
+    width: 100%;
+}
+
+.frame-2resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    width: 25%;
+    border-radius: 32px;
+    padding: 2rem;
+}
+
+button{
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    /* … */
+    .container__main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frame-1{
+        width: 90vw;
+        height: 100vh;
+    }
+
+    .frame-1 textarea{
+        font-family: inter;
+        font-size: 2rem;
+        background-color: #F3F5FC;
+        width: 90%;
+        height: 100vh;
+    }
+
+    .frame-2{
+        width: 80vw;
+        margin: 2rem;
+    }
+
+    .frame-2 img{
+        display: none;
+        
+    }
+  }
+
+@media (max-width: 320px) {
+    /* … */
+    .container__main__buttons{
+        flex-direction: column;
+    }
+
+    .container__main{
+        padding: 1rem;
+    }
+  }
